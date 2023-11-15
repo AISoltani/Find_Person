@@ -31,6 +31,7 @@ q[:, :, 2] = r
 #cv2.imshow('r',r)
 #cv2.imshow('g',g)
 #cv2.imshow('b',b)
+
 print(q.shape)
 
 dst = cv2.fastNlMeansDenoising(q,None,10,7,21)
