@@ -27,6 +27,7 @@ q = p.copy()
 q[:, :, 0] = b
 q[:, :, 1] = g
 q[:, :, 2] = r
+
 #cv2.imshow('r',r)
 #cv2.imshow('g',g)
 #cv2.imshow('b',b)
