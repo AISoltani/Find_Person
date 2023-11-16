@@ -37,4 +37,3 @@ dst = cv2.fastNlMeansDenoising(q,None,10,7,21)
 cv2.imshow('dst',dst)
 cv2.imshow('q',q)
 plt.show()
-
