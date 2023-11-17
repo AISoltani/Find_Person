@@ -2,6 +2,7 @@ import cv2
 import numpy as np
 import matplotlib.pyplot as plt
 
+
 # Reading image
 p = cv2.imread('findHim.jpg')
 
